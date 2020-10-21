@@ -17,14 +17,11 @@
     "baseUrl": ".",
     "paths": {
       "@env/*": ["environments/*"],
-      "@simples/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@simples/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@simples/lib-api-core": ["libs/lib-api-core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"],
   "types": ["node", "jest"],
-  "include": [
-    "**/*.ts",
-    "./libs/*/src/**/*",
-    "./apps/*/src/**/*"
-  ]
+  "include": ["**/*.ts", "./libs/*/src/**/*", "./apps/*/src/**/*"]
 }

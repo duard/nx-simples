@@ -35,6 +35,9 @@
     },
     "api-interfaces": {
       "tags": []
+    },
+    "lib-api-core": {
+      "tags": []
     }
   }
 }
