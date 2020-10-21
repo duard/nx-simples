@@ -16,8 +16,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@env/*": ["environments/*"],
       "@simples/api-interfaces": ["libs/api-interfaces/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "types": ["node", "jest"],
+  "include": [
+    "**/*.ts",
+    "./libs/*/src/**/*",
+    "./apps/*/src/**/*"
+  ]
 }
