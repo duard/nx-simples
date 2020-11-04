@@ -11,5 +11,7 @@ import { AppService } from './app.service';
   providers: [AppService],
 })
 export class AppModule {
-  constructor() {}
+  constructor() {
+    console.log('Running on dev', !environment.production);
+  }
 }
