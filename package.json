@@ -54,13 +54,14 @@
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1001.3",
+    "@angular-devkit/build-angular": "^0.1002.0",
     "@angular/cli": "~10.1.3",
     "@angular/compiler-cli": "^10.1.0",
     "@angular/language-service": "^10.1.0",
     "@nestjs/schematics": "^7.0.0",
     "@nestjs/testing": "^7.0.0",
-    "@nrwl/cli": "10.3.1",
+    "@ngneat/inspector": "^1.0.0",
+    "@nrwl/cli": "^10.3.1",
     "@nrwl/cypress": "10.3.1",
     "@nrwl/jest": "10.3.1",
     "@nrwl/nest": "10.3.1",

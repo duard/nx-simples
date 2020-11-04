@@ -20,6 +20,18 @@ npx nx run-many --target=serve --configuration=qa --projects=front,api --paralle
 npx nx run-many --target=serve --configuration=production --projects=front,api --parallel=true --maxParallel=100
 ```
 
+rodar somente a api 
+
+```shell
+
+```
+
+rodar somente a app 
+
+```shell
+
+```
+
 Gerar todas as Entities do seu banco de dados
 
 ```shell
