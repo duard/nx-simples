@@ -3,30 +3,30 @@
 Atualizar o projeto inteiro, sempre mantenha ele atualizado, não seja um goiaba que deixa as coisas em 1998.
 
 ```shell
-rm -rf node_modules;
-npm install;
-npm uninstall -g angular-cli;
-npm install -g @angular/cli@latest;
-npx ng update --all --force;
-npm audit fix; npm audit fix --force;
+rm -rf node_modules &&
+npm uninstall -g angular-cli ; npm install -g @angular/cli@latest
+npm install --force;
+git add .  ; git commit -m "Executando upgrade total" ; git push
+npx ng update --all --force ;
+npm audit fix ; npm audit fix --force;
 ```
 
 rodar a API e o APP paralelamente :-D  ```npm run dev```
 
 ```shell
-npx nx run-many --target=serve --projects=front,api --parallel=true 
+npx nx run-many --target=serve --projects=front,api --parallel=true
 npx nx run-many --target=serve --configuration=development --projects=front,api --parallel=true --maxParallel=100
 npx nx run-many --target=serve --configuration=qa --projects=front,api --parallel=true --maxParallel=100
 npx nx run-many --target=serve --configuration=production --projects=front,api --parallel=true --maxParallel=100
 ```
 
-rodar somente a api 
+rodar somente a api
 
 ```shell
 
 ```
 
-rodar somente a app 
+rodar somente a app
 
 ```shell
 
@@ -57,7 +57,7 @@ npm audit fix; npm audit fix --force;
 
 ```
 npm i --save typeorm @nestjs/config @nestjs/typeorm @nestjs/common dotenv-flow mysql
-npm i --save-dev   
+npm i --save-dev
 
 npm audit fix; npm audit fix --force;
 
@@ -74,7 +74,7 @@ npm uninstall cypress --save-dev; npm install cypress --save-dev;
 Connect the workspace to your Nx Cloud account at https://nx.app/orgs/workspace-setup?accessToken=ZjFjYzI4OWMtNzY1Ny00MjYyLWI3YmItMmRkMjhkZmNlZDdkfHJlYWQtd3JpdGU=.
 This will allow you to configure the cache and see detailed stats. You can do it later.
 
-#### coisas boas 
+#### coisas boas
 
 Diversos links bacanas
 
